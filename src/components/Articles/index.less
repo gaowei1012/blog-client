@@ -1,0 +1,41 @@
+@import '../../theme/const.less';
+
+.article {
+    transition: box-shadow .3s ease-in;
+    margin-bottom: 20px;
+    // antd styls
+    .antd-card-body {
+        padding: 14px 24px;
+    }
+    h3 {
+        font-weight: 700;
+        color: @title-color;
+        font-size: 17px;
+    }
+    .abstract {
+        margin-bottom: 5px;
+    }
+    .tag {
+        color: @tag-color;
+        >span {
+            margin-right: 10px;
+            font-size: 13px;
+        }
+    }
+    .content {
+        color: @content-color;
+        font-size: 15px;
+    }
+    .link {
+        color: @link;
+        font-weight: 600;
+        cursor: pointer;
+    }
+}
+
+.Pagination {
+    // dispaly 布局
+    display: flex;
+    // 尾部对齐方式
+    justify-content: flex-end;
+}

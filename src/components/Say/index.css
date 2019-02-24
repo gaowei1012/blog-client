@@ -1,0 +1,30 @@
+.time-line-wrp {
+  background-color: white;
+}
+.time-line-wrp .pagination {
+  max-width: 1000px;
+  display: flex;
+  margin: auto;
+  justify-content: flex-end;
+}
+.time-line-wrp h2 {
+  text-align: center;
+  font-weight: 600;
+}
+.time-line-wrp .time-line {
+  max-width: 1000px;
+  margin: auto;
+  padding: 35px 25px 20px 40px;
+  border-radius: 2px;
+}
+.time-line-wrp .item {
+  overflow: hidden;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  color: #767675;
+}
+.time-line-wrp .item .posted {
+  float: right;
+  color: #999;
+}

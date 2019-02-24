@@ -1,0 +1,38 @@
+.collect .pagination {
+  float: right;
+}
+.collect .collect-card-wrp {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.collect .collect-card-wrp .collect-card {
+  background-color: white;
+  border-radius: 2px;
+  width: 350px;
+  margin-bottom: 20px;
+}
+.collect .collect-card-wrp .collect-card .title {
+  color: #555;
+  font-size: 14px;
+  font-weight: 700;
+}
+.collect .collect-card-wrp .collect-card .create_at {
+  font-size: 12px;
+  color: #999;
+}
+.collect .collect-card-wrp .collect-card .collect-content {
+  margin: 5px 0;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.collect .author {
+  float: right;
+  color: #999;
+}
+.collect-author {
+  float: right;
+  color: #999;
+}
